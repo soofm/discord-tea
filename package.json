@@ -1,0 +1,27 @@
+{
+  "name": "discord-tea",
+  "version": "1.0.0",
+  "description": "Test app for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soofm/discord-tea.git"
+  },
+  "keywords": [
+    "discord",
+    "tea"
+  ],
+  "author": "Victor Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soofm/discord-tea/issues"
+  },
+  "homepage": "https://github.com/soofm/discord-tea#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.4",
+    "discord.js": "^11.3.2"
+  }
+}
