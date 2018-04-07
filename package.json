@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/soofm/discord-tea#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "bufferutil": "^3.0.4",
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "moment": "^2.22.0"
   }
 }
