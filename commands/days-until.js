@@ -25,5 +25,16 @@ function daysUntil(dateStr) {
   });
 }
 
+module.exports = {
+  name: 'daysuntil',
+  description: 'Returns days remaining  until the date passed in.',
+  execute(message, args) {
+    if (!args.length) {
+      return message.channel.send(`You didn't provide a date, ${msg.author}!`);
+    }
 
-module.exports = daysUntil
+    daysUntil(args[0])
+      .then(res => message.channel.send(`${args[0]} is in: ${res} days`))
+      .catch(err => console.error(`Error: ${err}`));
+  },
+};
